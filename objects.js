@@ -5,7 +5,7 @@ function updatePlaylist(playlist,artistName,songTitle)  {
   return playlist
 }
 
-function removeFromPlaylist(playlist,artistName)  {
+function removeFromPlaylist(playlist,artistName:'Slowdive')  {
  delete playlist.artistName
   return playlist
 }
